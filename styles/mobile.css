@@ -1,0 +1,127 @@
+.mobile {
+  background: #010225;
+  padding: 108px 0 33px;
+}
+
+.mobile__wrap {
+  padding-left: 86px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile__main {
+  max-width: 617px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile__main-desc {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 34px;
+}
+
+.mobile__main-desc-tag {
+  color: #159be8;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.mobile__main-desc-title {
+  max-width: 456px;
+  width: 100%;
+  color: #fff;
+  font-size: 40px;
+  line-height: 54px;
+  margin-bottom: 8px;
+}
+
+.mobile__main-desc-text {
+  color: #fff;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.mobile__main-cards {
+  display: flex;
+  gap: 56px;
+  align-items: center;
+}
+
+.mobile__main-cards-card {
+  max-width: 269px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 56px;
+}
+
+.mobile__main-cards-card-pic {
+  display: flex;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: #010225;
+  margin-bottom: 12px;
+}
+
+.mobile__main-cards-card-title {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.mobile__main-cards-card:hover .mobile__main-cards-card-title {
+  color: #159be8;
+}
+
+.mobile__main-cards-card-text {
+  color: #fff;
+  font-size: 11px;
+  line-height: 24px;
+}
+
+.mobile__main-get {
+  position: relative;
+  max-width: 164px;
+  width: 100%;
+  height: 48px;
+}
+
+.mobile__main-get-link {
+  padding: 16px 32px;
+  color: #fff;
+  border-radius: 100px;
+  border: 2px solid #159be8;
+  background: #159be8;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+}
+
+.mobile__main-get:hover .mobile__main-get-link {
+  background: #fff;
+  color: #159be8;
+  border: 2px solid white;
+}
+
+.mobile__main-get-icon {
+  position: absolute;
+  top: -3px;
+  right: -45px;
+}
+
+.mobile__main-get-icon rect {
+  transition: 0.3s;
+}
+
+.mobile__main-get:hover .mobile__main-get-icon rect {
+  fill-opacity: 1;
+}
+
+.mobile__side {
+  display: flex;
+}

@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'LeagueSpartan', sans-serif;
+  font-weight: 400;
+  background: #0C0D2E;
+}
+
+h1, h2, h3, h4, h5, h6, input {
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.page-container {
+  max-width: 1470px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container {
+  max-width: 1298px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
