@@ -34,6 +34,8 @@
   display: flex;
   gap: 110px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .benefits__cards-card {

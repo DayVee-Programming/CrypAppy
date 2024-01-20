@@ -49,6 +49,8 @@
   display: flex;
   gap: 56px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .mobile__main-cards-card {
@@ -124,4 +126,19 @@
 
 .mobile__side {
   display: flex;
+}
+
+@media screen and (max-width: 1430px) {
+  .mobile__side {
+    display: none;
+  }
+
+  .banner__main {
+    max-width: unset;
+  }
+
+  .mobile__wrap {
+    justify-content: center;
+    padding-left: 15px;
+  }
 }

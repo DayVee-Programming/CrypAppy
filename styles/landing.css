@@ -87,6 +87,10 @@
 .landing__features-content-card-text {
   color: #fff;
   line-height: 24px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .landing__features-img-pic {
@@ -100,4 +104,40 @@
   position: absolute;
   top: -400px;
   left: -400px;
+}
+
+@media screen and (max-width: 992px) {
+  .landing__features-img {
+    display: none;
+  }
+
+  .landing__pic {
+    display: none;
+  }
+
+  .landing__wrap {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landing__features {
+    gap: 15px;
+  }
+
+  .landing__features-content_right {
+    text-align: center;
+  }
+
+  .landing__features-content-card_right {
+    align-items: center;
+  }
+
+  .landing__features-content_left {
+    text-align: center;
+  }
+
+  .landing__features-content-card_left {
+    align-items: center;
+  }
 }

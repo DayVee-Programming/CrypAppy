@@ -38,6 +38,8 @@
   gap: 53px;
   align-items: center;
   margin-bottom: 99px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .ratings__sponsors-link {
@@ -48,6 +50,8 @@
   display: flex;
   gap: 36px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .ratings__cards-card {

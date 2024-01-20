@@ -29,7 +29,7 @@
 
 .pricing__desc-title {
   color: #fff;
-  font-size: 40px;
+  font-size: clamp(1.875rem, 1.701rem + 0.87vw, 2.5rem);
   line-height: 54px;
   margin-bottom: 8px;
 }
@@ -99,6 +99,8 @@
   display: flex;
   gap: 50px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .pricing__cards-card {

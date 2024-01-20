@@ -10,6 +10,7 @@
   padding: 14px 43px;
   display: flex;
   justify-content: space-between;
+  gap: 15px;
   align-items: center;
 }
 
@@ -21,12 +22,16 @@
   display: flex;
   gap: 28px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .header__main-menu {
   display: flex;
   gap: 24px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .header__main-menu-item-link {
@@ -51,4 +56,28 @@
 .header__main-link:hover {
   color: #189ce8;
   background: #fff;
+}
+
+@media screen and (max-width: 992px) {
+  .header__wrap {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__wrap {
+    padding: 14px 20px;
+  }
+
+  .header__main-menu {
+    gap: 10px;
+  }
+
+  .header__main {
+    gap: 15px;
+  }
+
+  .header__main-menu-item-link {
+    font-size: 14px;
+  }
 }

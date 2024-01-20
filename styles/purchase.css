@@ -22,6 +22,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 0 15px;
 }
 
 .purchase-desc-title {
@@ -42,6 +43,8 @@
   display: flex;
   gap: 20px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .purchase-desc-links-link {
@@ -72,4 +75,14 @@
 .purchase__pic_right {
   top: 215px;
   right: -301px;
+}
+
+@media screen and (max-width: 992px) {
+  .purchase__pic_left {
+    display: none;
+  }
+
+  .purchase__pic_right {
+    display: none;
+  }
 }

@@ -1,5 +1,4 @@
 .banner {
-  height: 720px;
   background: #010225;
 }
 
@@ -16,11 +15,12 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 192px 0 164px;
 }
 
 .banner__main-title {
   color: #fff;
-  font-size: 64px;
+  font-size: clamp(1.875rem, 1.284rem + 2.96vw, 4rem);
   line-height: 76px;
   margin-bottom: 8px;
 }
@@ -35,15 +35,44 @@
 .banner__main-links {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .banner__main-links-link {
   display: flex;
 }
 
-.banner__side {
-  display: flex;
+.banner__img {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+@media screen and (max-width: 1430px) {
+  .banner__img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .banner__main {
+    padding: 240px 0 164px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner__wrap {
+    padding-left: 15px;
+  }
+
+  .banner__main-title {
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 661px) {
+  .banner__main {
+    padding: 280px 0 164px;
+  }
 }
