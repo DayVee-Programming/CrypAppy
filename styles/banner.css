@@ -16,6 +16,7 @@
   display: flex;
   flex-direction: column;
   padding: 192px 0 164px;
+  z-index: 1;
 }
 
 .banner__main-title {
@@ -28,7 +29,7 @@
 .banner__main-text {
   color: #fff;
   font-size: 12px;
-  line-height: 30px; 
+  line-height: 30px;
   margin-bottom: 14px;
 }
 
@@ -47,17 +48,29 @@
   position: absolute;
   top: 0;
   right: 0;
+  max-width: 688px;
+  max-height: 982px;
 }
 
-@media screen and (max-width: 1430px) {
+@media screen and (max-width: 1200px) {
   .banner__img {
-    display: none;
+    max-width: 550px;
+    max-height: 700px;
+  }
+
+  .banner__main {
+    max-width: 450px;
   }
 }
 
 @media screen and (max-width: 992px) {
   .banner__main {
     padding: 240px 0 164px;
+    max-width: unset;
+  }
+
+  .banner__img {
+    display: none;
   }
 }
 

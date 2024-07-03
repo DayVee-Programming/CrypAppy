@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <div class="page-container header__wrap">
         <a href="#" class="header__logo">
           <img src="./images/logo.png" alt="" class="header__logo-img" />
@@ -16,242 +16,184 @@
         <div class="header__main">
           <ul class="header__main-menu">
             <li class="header__main-menu-item">
-              <a href="#" class="header__main-menu-item-link">Benefits</a>
+              <a href="#benefits" class="header__main-menu-item-link"
+                >Benefits</a
+              >
             </li>
             <li class="header__main-menu-item">
-              <a href="#" class="header__main-menu-item-link">Features</a>
+              <a href="#landing" class="header__main-menu-item-link"
+                >Features</a
+              >
             </li>
             <li class="header__main-menu-item">
-              <a href="#" class="header__main-menu-item-link">Reviews</a>
+              <a href="#ratings" class="header__main-menu-item-link">Reviews</a>
             </li>
             <li class="header__main-menu-item">
-              <a href="#" class="header__main-menu-item-link">Pricing</a>
+              <a href="#pricing" class="header__main-menu-item-link">Pricing</a>
             </li>
             <li class="header__main-menu-item">
-              <a href="#" class="header__main-menu-item-link">Contact</a>
+              <a href="#footer" class="header__main-menu-item-link">Contact</a>
             </li>
           </ul>
-          <a href="#" class="header__main-link">Buy CrypAppy</a>
+          <a href="#footer" class="header__main-link">Buy CrypAppy</a>
         </div>
       </div>
     </header>
 
-    <div class="banner">
-      <div class="page-container banner__wrap">
-        <div class="banner__main">
-          <h1 class="banner__main-title">
-            The crypto portfolio app that makes you smile. Every day.
-          </h1>
-          <p class="banner__main-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor.
-          </p>
-          <div class="banner__main-links">
-            <a href="#" class="banner__main-links-link">
-              <img
-                src="./images/appStore.png"
-                alt=""
-                class="banner__main-links-link-img"
-              />
+    <main>
+      <div id="banner" class="banner">
+        <div class="page-container banner__wrap">
+          <div class="banner__main">
+            <h1 class="banner__main-title">
+              The crypto portfolio app that makes you smile. Every day.
+            </h1>
+            <p class="banner__main-text">
+              The world of cryptocurrency is exciting, but managing your
+              investments across multiple exchanges and wallets can be a hassle.
+              Introducing the ultimate crypto portfolio app - your one-stop shop
+              for tracking, analyzing, and making informed decisions about your
+              digital assets.
+            </p>
+            <div class="banner__main-links">
+              <a href="#" class="banner__main-links-link">
+                <img
+                  src="./images/appStore.png"
+                  alt=""
+                  class="banner__main-links-link-img"
+                />
+              </a>
+              <a href="#" class="banner__main-links-link">
+                <img
+                  src="./images/googlePlay.png"
+                  alt=""
+                  class="banner__main-links-link-img"
+                />
+              </a>
+            </div>
+          </div>
+          <img src="./images/banner.png" alt="" class="banner__img" />
+        </div>
+      </div>
+
+      <div id="benefits" class="benefits">
+        <div class="container benefits__wrap">
+          <div class="benefits__desc">
+            <h2 class="benefits__desc-title">New crypto finance app</h2>
+            <p class="benefits__desc-text">
+              Connect all your crypto wallets and exchanges in one place for a
+              consolidated view of your holdings.
+            </p>
+          </div>
+          <div class="benefits__cards">
+            <a href="#" class="benefits__cards-card">
+              <div class="benefits__cards-card-pic">
+                <img
+                  src="./images/benefit.png"
+                  alt=""
+                  class="benefits__cards-card-pic-img"
+                />
+              </div>
+              <h3 class="benefits__cards-card-title">Save Time & Effort</h3>
+              <p class="benefits__cards-card-text">
+                Eliminate the need to manage multiple platforms and
+                spreadsheets.
+              </p>
+              <div href="#" class="benefits__cards-card-more">
+                <p class="benefits__cards-card-more-text">Learn more</p>
+                <svg
+                  class="benefits__cards-card-more-icon"
+                  width="22"
+                  height="16"
+                  viewBox="0 0 22 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M1 7H21V10H1V7Z" fill="white" />
+                  <path d="M13 0H22V10H13V0Z" fill="white" />
+                  <path d="M13 6H22V16H13V6Z" fill="white" />
+                </svg>
+              </div>
             </a>
-            <a href="#" class="banner__main-links-link">
-              <img
-                src="./images/googlePlay.png"
-                alt=""
-                class="banner__main-links-link-img"
-              />
+            <a href="#" class="benefits__cards-card">
+              <div class="benefits__cards-card-pic">
+                <img
+                  src="./images/benefit.png"
+                  alt=""
+                  class="benefits__cards-card-pic-img"
+                />
+              </div>
+              <h3 class="benefits__cards-card-title">Invest with Confidence</h3>
+              <p class="benefits__cards-card-text">
+                Make informed decisions based on real-time data and insightful
+                analytics.
+              </p>
+              <div href="#" class="benefits__cards-card-more">
+                <p class="benefits__cards-card-more-text">Learn more</p>
+                <svg
+                  class="benefits__cards-card-more-icon"
+                  width="22"
+                  height="16"
+                  viewBox="0 0 22 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M1 7H21V10H1V7Z" fill="white" />
+                  <path d="M13 0H22V10H13V0Z" fill="white" />
+                  <path d="M13 6H22V16H13V6Z" fill="white" />
+                </svg>
+              </div>
+            </a>
+            <a href="#" class="benefits__cards-card">
+              <div class="benefits__cards-card-pic">
+                <img
+                  src="./images/benefit.png"
+                  alt=""
+                  class="benefits__cards-card-pic-img"
+                />
+              </div>
+              <h3 class="benefits__cards-card-title">Maximize Returns</h3>
+              <p class="benefits__cards-card-text">
+                Identify profitable opportunities and optimize your portfolio
+                performance.
+              </p>
+              <div href="#" class="benefits__cards-card-more">
+                <p class="benefits__cards-card-more-text">Learn more</p>
+                <svg
+                  class="benefits__cards-card-more-icon"
+                  width="22"
+                  height="16"
+                  viewBox="0 0 22 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M1 7H21V10H1V7Z" fill="white" />
+                  <path d="M13 0H22V10H13V0Z" fill="white" />
+                  <path d="M13 6H22V16H13V6Z" fill="white" />
+                </svg>
+              </div>
             </a>
           </div>
         </div>
-        <img src="./images/banner.png" alt="" class="banner__img" />
       </div>
-    </div>
 
-    <div class="benefits">
-      <div class="container benefits__wrap">
-        <div class="benefits__desc">
-          <h2 class="benefits__desc-title">New crypto finance app</h2>
-          <p class="benefits__desc-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
-            imperdiet. Nunc ut sem vitae risus tristique posuere.
-          </p>
-        </div>
-        <div class="benefits__cards">
-          <a href="#" class="benefits__cards-card">
-            <div class="benefits__cards-card-pic">
-              <img
-                src="./images/benefit.png"
-                alt=""
-                class="benefits__cards-card-pic-img"
-              />
-            </div>
-            <h3 class="benefits__cards-card-title">Benefit description</h3>
-            <p class="benefits__cards-card-text">
-              Suspendisse varius enim in eros elementum tristique. Duis cursus.
+      <div id="landing" class="landing">
+        <div class="container landing__wrap">
+          <div class="landing__desc">
+            <h2 class="landing__desc-title">
+              A perfect landing page to help launch your app
+            </h2>
+            <p class="landing__desc-text">
+              Gain the tools and knowledge you need to navigate the exciting
+              world of crypto.
             </p>
-            <div href="#" class="benefits__cards-card-more">
-              <p class="benefits__cards-card-more-text">Learn more</p>
-              <svg
-                class="benefits__cards-card-more-icon"
-                width="22"
-                height="16"
-                viewBox="0 0 22 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M1 7H21V10H1V7Z" fill="white" />
-                <path d="M13 0H22V10H13V0Z" fill="white" />
-                <path d="M13 6H22V16H13V6Z" fill="white" />
-              </svg>
-            </div>
-          </a>
-          <a href="#" class="benefits__cards-card">
-            <div class="benefits__cards-card-pic">
-              <img
-                src="./images/benefit.png"
-                alt=""
-                class="benefits__cards-card-pic-img"
-              />
-            </div>
-            <h3 class="benefits__cards-card-title">Benefit description</h3>
-            <p class="benefits__cards-card-text">
-              Suspendisse varius enim in eros elementum tristique. Duis cursus.
-            </p>
-            <div href="#" class="benefits__cards-card-more">
-              <p class="benefits__cards-card-more-text">Learn more</p>
-              <svg
-                class="benefits__cards-card-more-icon"
-                width="22"
-                height="16"
-                viewBox="0 0 22 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M1 7H21V10H1V7Z" fill="white" />
-                <path d="M13 0H22V10H13V0Z" fill="white" />
-                <path d="M13 6H22V16H13V6Z" fill="white" />
-              </svg>
-            </div>
-          </a>
-          <a href="#" class="benefits__cards-card">
-            <div class="benefits__cards-card-pic">
-              <img
-                src="./images/benefit.png"
-                alt=""
-                class="benefits__cards-card-pic-img"
-              />
-            </div>
-            <h3 class="benefits__cards-card-title">Benefit description</h3>
-            <p class="benefits__cards-card-text">
-              Suspendisse varius enim in eros elementum tristique. Duis cursus.
-            </p>
-            <div href="#" class="benefits__cards-card-more">
-              <p class="benefits__cards-card-more-text">Learn more</p>
-              <svg
-                class="benefits__cards-card-more-icon"
-                width="22"
-                height="16"
-                viewBox="0 0 22 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M1 7H21V10H1V7Z" fill="white" />
-                <path d="M13 0H22V10H13V0Z" fill="white" />
-                <path d="M13 6H22V16H13V6Z" fill="white" />
-              </svg>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="landing">
-      <div class="container landing__wrap">
-        <div class="landing__desc">
-          <h2 class="landing__desc-title">
-            A perfect landing page to help launch your app
-          </h2>
-          <p class="landing__desc-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla.
-          </p>
-        </div>
-        <div class="landing__features">
-          <div class="landing__features-content landing__features-content_left">
-            <a
-              href="#"
-              class="landing__features-content-card landing__features-content-card_left"
-            >
-              <img
-                src="./images/square.png"
-                alt=""
-                class="landing__features-content-card-img"
-              />
-              <h3 class="landing__features-content-card-title">
-                Feature description
-              </h3>
-              <p class="landing__features-content-card-text">
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursusSuspendisse varius enim in eros elementum tristique. Duis
-                cursus.
-              </p>
-            </a>
-            <a
-              href="#"
-              class="landing__features-content-card landing__features-content-card_left"
-            >
-              <img
-                src="./images/square.png"
-                alt=""
-                class="landing__features-content-card-img"
-              />
-              <h3 class="landing__features-content-card-title">
-                Feature description
-              </h3>
-              <p class="landing__features-content-card-text">
-                Suspendisse varius enim in eros elementum Suspendisse varius
-                enim in eros elementum tristique. Duis cursus. tristique. Duis
-                cursus.
-              </p>
-            </a>
-            <a
-              href="#"
-              class="landing__features-content-card landing__features-content-card_left"
-            >
-              <img
-                src="./images/square.png"
-                alt=""
-                class="landing__features-content-card-img"
-              />
-              <h3 class="landing__features-content-card-title">
-                Feature description
-              </h3>
-              <p class="landing__features-content-card-text">
-                Suspendisse varius enim in eros elementum Suspendisse varius
-                enim in eros elementum tristique. Duis cursus. tristique. Duis
-                cursus.
-              </p>
-            </a>
           </div>
-          <a href="#" class="landing__features-img-pic">
-            <img
-              src="./images/landing.png"
-              alt=""
-              class="landing__features-img"
-            />
-          </a>
           <div class="landing__features">
             <div
-              class="landing__features-content landing__features-content_right"
+              class="landing__features-content landing__features-content_left"
             >
               <a
                 href="#"
-                class="landing__features-content-card landing__features-content-card_right"
+                class="landing__features-content-card landing__features-content-card_left"
               >
                 <img
                   src="./images/square.png"
@@ -259,17 +201,16 @@
                   class="landing__features-content-card-img"
                 />
                 <h3 class="landing__features-content-card-title">
-                  Feature description
+                  Effortless Portfolio Tracking
                 </h3>
                 <p class="landing__features-content-card-text">
-                  Suspendisse varius enim in eros elementum tristique. Duis
-                  cursusSuspendisse varius enim in eros elementum tristique.
-                  Duis cursus.
+                  Connect all your crypto wallets and exchanges in one place for
+                  a consolidated view of your holdings.
                 </p>
               </a>
               <a
                 href="#"
-                class="landing__features-content-card landing__features-content-card_right"
+                class="landing__features-content-card landing__features-content-card_left"
               >
                 <img
                   src="./images/square.png"
@@ -277,17 +218,16 @@
                   class="landing__features-content-card-img"
                 />
                 <h3 class="landing__features-content-card-title">
-                  Feature description
+                  Real-Time Market Data
                 </h3>
                 <p class="landing__features-content-card-text">
-                  Suspendisse varius enim in eros elementum Suspendisse varius
-                  enim in eros elementum tristique. Duis cursus. tristique. Duis
-                  cursus.
+                  Stay on top of the market with live prices, charts, and market
+                  capitalization data for thousands of cryptocurrencies.
                 </p>
               </a>
               <a
                 href="#"
-                class="landing__features-content-card landing__features-content-card_right"
+                class="landing__features-content-card landing__features-content-card_left"
               >
                 <img
                   src="./images/square.png"
@@ -295,1080 +235,1148 @@
                   class="landing__features-content-card-img"
                 />
                 <h3 class="landing__features-content-card-title">
-                  Feature description
+                  Advanced Analytics
                 </h3>
                 <p class="landing__features-content-card-text">
-                  Suspendisse varius enim in eros elementum Suspendisse varius
-                  enim in eros elementum tristique. Duis cursus. tristique. Duis
-                  cursus.
+                  Gain valuable insights into your portfolio performance with
+                  detailed charts, historical price data, and comprehensive
+                  reports.
                 </p>
               </a>
             </div>
-          </div>
-        </div>
-        <div class="landing__pic"></div>
-      </div>
-    </div>
-
-    <div class="mobile">
-      <div class="page-container mobile__wrap">
-        <div class="mobile__main">
-          <div class="mobile__main-desc">
-            <p class="mobile__main-desc-tag">mobile friendly</p>
-            <h3 class="mobile__main-desc-title">
-              Manage your money from anywhere
-            </h3>
-            <p class="mobile__main-desc-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare.
-            </p>
-          </div>
-          <div class="mobile__main-cards">
-            <a href="#" class="mobile__main-cards-card">
-              <div class="mobile__main-cards-card-pic">
-                <img
-                  src="./images/benefit.png"
-                  alt=""
-                  class="mobile__main-cards-card-pic-img"
-                />
+            <a href="#" class="landing__features-img-pic">
+              <img
+                src="./images/landing.png"
+                alt=""
+                class="landing__features-img"
+              />
+            </a>
+            <div class="landing__features">
+              <div
+                class="landing__features-content landing__features-content_right"
+              >
+                <a
+                  href="#"
+                  class="landing__features-content-card landing__features-content-card_right"
+                >
+                  <img
+                    src="./images/square.png"
+                    alt=""
+                    class="landing__features-content-card-img"
+                  />
+                  <h3 class="landing__features-content-card-title">
+                    Price Alerts
+                  </h3>
+                  <p class="landing__features-content-card-text">
+                    Never miss a trading opportunity with customizable price
+                    alerts that notify you when your favorite coins reach a
+                    specific price point.
+                  </p>
+                </a>
+                <a
+                  href="#"
+                  class="landing__features-content-card landing__features-content-card_right"
+                >
+                  <img
+                    src="./images/square.png"
+                    alt=""
+                    class="landing__features-content-card-img"
+                  />
+                  <h3 class="landing__features-content-card-title">
+                    News and Research
+                  </h3>
+                  <p class="landing__features-content-card-text">
+                    Stay informed with the latest crypto news, market analysis,
+                    and educational resources to make smarter investment
+                    decisions.
+                  </p>
+                </a>
+                <a
+                  href="#"
+                  class="landing__features-content-card landing__features-content-card_right"
+                >
+                  <img
+                    src="./images/square.png"
+                    alt=""
+                    class="landing__features-content-card-img"
+                  />
+                  <h3 class="landing__features-content-card-title">
+                    Secure and Reliable
+                  </h3>
+                  <p class="landing__features-content-card-text">
+                    Our app prioritizes your security with industry-leading
+                    encryption and data protection measures.
+                  </p>
+                </a>
               </div>
-              <h4 class="mobile__main-cards-card-title">Benefit description</h4>
-              <p class="mobile__main-cards-card-text">
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus.
+            </div>
+          </div>
+          <div class="landing__pic"></div>
+        </div>
+      </div>
+
+      <div id="mobile" class="mobile">
+        <div class="page-container mobile__wrap">
+          <div class="mobile__main">
+            <div class="mobile__main-desc">
+              <p class="mobile__main-desc-tag">mobile friendly</p>
+              <h3 class="mobile__main-desc-title">
+                Manage your money from anywhere
+              </h3>
+              <p class="mobile__main-desc-text">
+                Gain the tools and knowledge you need to navigate the exciting
+                world of crypto.
               </p>
-            </a>
-            <a href="#" class="mobile__main-cards-card">
-              <div class="mobile__main-cards-card-pic">
-                <img
-                  src="./images/benefit.png"
-                  alt=""
-                  class="mobile__main-cards-card-pic-img"
+            </div>
+            <div class="mobile__main-cards">
+              <a href="#" class="mobile__main-cards-card">
+                <div class="mobile__main-cards-card-pic">
+                  <img
+                    src="./images/benefit.png"
+                    alt=""
+                    class="mobile__main-cards-card-pic-img"
+                  />
+                </div>
+                <h4 class="mobile__main-cards-card-title">
+                  Experienced Traders
+                </h4>
+                <p class="mobile__main-cards-card-text">
+                  Make data-driven decisions and optimize your trading
+                  strategies.
+                </p>
+              </a>
+              <a href="#" class="mobile__main-cards-card">
+                <div class="mobile__main-cards-card-pic">
+                  <img
+                    src="./images/benefit.png"
+                    alt=""
+                    class="mobile__main-cards-card-pic-img"
+                  />
+                </div>
+                <h4 class="mobile__main-cards-card-title">
+                  Long-Term Investors
+                </h4>
+                <p class="mobile__main-cards-card-text">
+                  Track your portfolio performance and make informed investment
+                  decisions for the future.
+                </p>
+              </a>
+            </div>
+            <a href="#" class="mobile__main-get">
+              <p class="mobile__main-get-link">Get CrypAppy</p>
+              <svg
+                class="mobile__main-get-icon"
+                width="71"
+                height="71"
+                viewBox="0 0 71 71"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  x="13"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
                 />
+                <rect
+                  x="39"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="65"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="13"
+                  y="13"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="39"
+                  y="13"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="65"
+                  y="13"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="13"
+                  y="26"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="39"
+                  y="26"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="65"
+                  y="26"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="13"
+                  y="39"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="39"
+                  y="39"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="65"
+                  y="39"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="13"
+                  y="52"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="39"
+                  y="52"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="65"
+                  y="52"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="13"
+                  y="65"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="39"
+                  y="65"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="65"
+                  y="65"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect width="5" height="5" fill="#159BE8" fill-opacity="0.4" />
+                <rect
+                  x="52"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="26"
+                  y="13"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  y="26"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="52"
+                  y="26"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="26"
+                  y="39"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  y="52"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="52"
+                  y="52"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="26"
+                  y="65"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  y="13"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="26"
+                  y="26"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="52"
+                  y="39"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  y="65"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="26"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  y="39"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="52"
+                  y="65"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="52"
+                  y="13"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+                <rect
+                  x="26"
+                  y="52"
+                  width="5"
+                  height="5"
+                  fill="#159BE8"
+                  fill-opacity="0.4"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="mobile__side">
+            <img src="./images/mobile1.png" alt="" class="mobile__side-img" />
+            <img src="./images/mobile2.png" alt="" class="mobile__side-img" />
+          </div>
+        </div>
+      </div>
+
+      <div id="ratings" class="ratings">
+        <div class="container ratings__wrap">
+          <div class="ratings__desc">
+            <p class="ratings__desc-text">the best crypto App</p>
+            <h3 class="ratings__desc-title">
+              Backed by the biggest names in the industry
+            </h3>
+          </div>
+          <div class="ratings__sponsors">
+            <a href="#" class="ratings__sponsors-link">
+              <img
+                src="./images/lightAI.png"
+                alt=""
+                class="ratings__sponsors-link-img"
+              />
+            </a>
+            <a href="#" class="ratings__sponsors-link">
+              <img
+                src="./images/foxHub.png"
+                alt=""
+                class="ratings__sponsors-link-img"
+              />
+            </a>
+            <a href="#" class="ratings__sponsors-link">
+              <img
+                src="./images/hexLab.png"
+                alt=""
+                class="ratings__sponsors-link-img"
+              />
+            </a>
+            <a href="#" class="ratings__sponsors-link">
+              <img
+                src="./images/codeLab.png"
+                alt=""
+                class="ratings__sponsors-link-img"
+              />
+            </a>
+            <a href="#" class="ratings__sponsors-link">
+              <img
+                src="./images/zooTV.png"
+                alt=""
+                class="ratings__sponsors-link-img"
+              />
+            </a>
+          </div>
+          <div class="ratings__cards">
+            <a href="#" class="ratings__cards-card">
+              <div class="ratings__cards-card-imgs">
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
               </div>
-              <h4 class="mobile__main-cards-card-title">Benefit description</h4>
-              <p class="mobile__main-cards-card-text">
-                Suspendisse varius enim in eros elementum tristique. Duis
-                cursus.
+              <p class="ratings__cards-card-text">
+                "This app is a game-changer! I used to struggle keeping track of
+                my crypto holdings across different wallets and exchanges. This
+                app solves that problem perfectly. It's easy to use, visually
+                appealing, and the live data and analytics are incredibly
+                helpful. Highly recommend for anyone serious about crypto!"
               </p>
+              <div class="ratings__cards-card-profile">
+                <img
+                  src="./images/ratings1.png"
+                  alt=""
+                  class="ratings__cards-card-profile-img"
+                />
+                <div class="ratings__cards-card-profile-desc">
+                  <h4 class="ratings__cards-card-profile-desc-title">
+                    Jason Renolds
+                  </h4>
+                  <p class="ratings__cards-card-profile-desc-text">
+                    Verified Customer
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="ratings__cards-card">
+              <div class="ratings__cards-card-imgs">
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <p class="ratings__cards-card-text">
+                "Finally, a crypto portfolio app that's user-friendly and
+                feature-rich! I love the clean interface and the ability to set
+                price alerts. Never miss a trading opportunity again! The news
+                section is also a great resource for staying informed about the
+                latest crypto trends. 5 stars!"
+              </p>
+              <div class="ratings__cards-card-profile">
+                <img
+                  src="./images/ratings2.png"
+                  alt=""
+                  class="ratings__cards-card-profile-img"
+                />
+                <div class="ratings__cards-card-profile-desc">
+                  <h4 class="ratings__cards-card-profile-desc-title">
+                    Sarah Genning
+                  </h4>
+                  <p class="ratings__cards-card-profile-desc-text">
+                    Verified Customer
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="ratings__cards-card">
+              <div class="ratings__cards-card-imgs">
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <p class="ratings__cards-card-text">
+                "This app has been a lifesaver for my long-term crypto
+                investments. I can easily track my portfolio performance over
+                time and see how my different coins are doing. The historical
+                data and charts are super helpful for making informed investment
+                decisions. Plus, the security features give me peace of mind."
+              </p>
+              <div class="ratings__cards-card-profile">
+                <img
+                  src="./images/ratings3.png"
+                  alt=""
+                  class="ratings__cards-card-profile-img"
+                />
+                <div class="ratings__cards-card-profile-desc">
+                  <h4 class="ratings__cards-card-profile-desc-title">
+                    Lori Basic
+                  </h4>
+                  <p class="ratings__cards-card-profile-desc-text">
+                    Verified Customer
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="ratings__cards-card">
+              <div class="ratings__cards-card-imgs">
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+                <div class="ratings__cards-card-imgs-pic">
+                  <svg
+                    class="ratings__cards-card-imgs-pic-icon"
+                    width="14"
+                    height="13"
+                    viewBox="0 0 14 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g clip-path="url(#clip0_1_280)">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+                        fill="#159BE8"
+                      />
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_1_280">
+                        <rect width="14" height="13" fill="white" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <p class="ratings__cards-card-text">
+                "Obsessed with this new crypto portfolio app! It's the perfect
+                tool for crypto newbies like me. The app provides clear
+                explanations and educational resources that are helping me learn
+                the ropes. Feeling much more confident about my crypto
+                investments now!"
+              </p>
+              <div class="ratings__cards-card-profile">
+                <img
+                  src="./images/ratings4.png"
+                  alt=""
+                  class="ratings__cards-card-profile-img"
+                />
+                <div class="ratings__cards-card-profile-desc">
+                  <h4 class="ratings__cards-card-profile-desc-title">
+                    James Razz
+                  </h4>
+                  <p class="ratings__cards-card-profile-desc-text">
+                    Verified Customer
+                  </p>
+                </div>
+              </div>
             </a>
           </div>
-          <a href="#" class="mobile__main-get">
-            <p class="mobile__main-get-link">Get CrypAppy</p>
-            <svg
-              class="mobile__main-get-icon"
-              width="71"
-              height="71"
-              viewBox="0 0 71 71"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect
-                x="13"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="39"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="65"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="13"
-                y="13"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="39"
-                y="13"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="65"
-                y="13"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="13"
-                y="26"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="39"
-                y="26"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="65"
-                y="26"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="13"
-                y="39"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="39"
-                y="39"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="65"
-                y="39"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="13"
-                y="52"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="39"
-                y="52"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="65"
-                y="52"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="13"
-                y="65"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="39"
-                y="65"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="65"
-                y="65"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect width="5" height="5" fill="#159BE8" fill-opacity="0.4" />
-              <rect
-                x="52"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="26"
-                y="13"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                y="26"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="52"
-                y="26"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="26"
-                y="39"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                y="52"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="52"
-                y="52"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="26"
-                y="65"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                y="13"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="26"
-                y="26"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="52"
-                y="39"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                y="65"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="26"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                y="39"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="52"
-                y="65"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="52"
-                y="13"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-              <rect
-                x="26"
-                y="52"
-                width="5"
-                height="5"
-                fill="#159BE8"
-                fill-opacity="0.4"
-              />
-            </svg>
-          </a>
-        </div>
-        <div class="mobile__side">
-          <img src="./images/mobile1.png" alt="" class="mobile__side-img" />
-          <img src="./images/mobile2.png" alt="" class="mobile__side-img" />
         </div>
       </div>
-    </div>
 
-    <div class="ratings">
-      <div class="container ratings__wrap">
-        <div class="ratings__desc">
-          <p class="ratings__desc-text">the best crypto App</p>
-          <h3 class="ratings__desc-title">
-            Backed by the biggest names in the industry
-          </h3>
-        </div>
-        <div class="ratings__sponsors">
-          <a href="#" class="ratings__sponsors-link">
-            <img
-              src="./images/lightAI.png"
-              alt=""
-              class="ratings__sponsors-link-img"
-            />
-          </a>
-          <a href="#" class="ratings__sponsors-link">
-            <img
-              src="./images/foxHub.png"
-              alt=""
-              class="ratings__sponsors-link-img"
-            />
-          </a>
-          <a href="#" class="ratings__sponsors-link">
-            <img
-              src="./images/hexLab.png"
-              alt=""
-              class="ratings__sponsors-link-img"
-            />
-          </a>
-          <a href="#" class="ratings__sponsors-link">
-            <img
-              src="./images/codeLab.png"
-              alt=""
-              class="ratings__sponsors-link-img"
-            />
-          </a>
-          <a href="#" class="ratings__sponsors-link">
-            <img
-              src="./images/zooTV.png"
-              alt=""
-              class="ratings__sponsors-link-img"
-            />
-          </a>
-        </div>
-        <div class="ratings__cards">
-          <a href="#" class="ratings__cards-card">
-            <div class="ratings__cards-card-imgs">
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-            </div>
-            <p class="ratings__cards-card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
-              lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
+      <div id="pricing" class="pricing">
+        <div class="container pricing__wrap">
+          <div class="pricing__desc">
+            <p class="pricing__desc-tag">Our pricing</p>
+            <h2 class="pricing__desc-title">
+              Choose the plan that's right for your financial needs
+            </h2>
+            <p class="pricing__desc-text">
+              Here are some options for the crypto portfolio app pricing
+              structure:
             </p>
-            <div class="ratings__cards-card-profile">
-              <img
-                src="./images/ratings1.png"
-                alt=""
-                class="ratings__cards-card-profile-img"
-              />
-              <div class="ratings__cards-card-profile-desc">
-                <h4 class="ratings__cards-card-profile-desc-title">
-                  Jason Renolds
-                </h4>
-                <p class="ratings__cards-card-profile-desc-text">
-                  Verified Customer
-                </p>
-              </div>
+          </div>
+          <div class="pricing__bill">
+            <div class="pricing__bill-content">
+              <p class="pricing__bill-content-text">Billed monthly</p>
+              <a href="#" class="pricing__bill-content-toggle">
+                <div class="pricing__bill-content-toggle-switcher"></div>
+              </a>
             </div>
-          </a>
-          <a href="#" class="ratings__cards-card">
-            <div class="ratings__cards-card-imgs">
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
+            <div class="pricing__bill-desc">
+              <p class="pricing__bill-desc-text">Billed annually</p>
+              <p class="pricing__bill-desc-discount">Save 20%</p>
             </div>
-            <p class="ratings__cards-card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
-              lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
-            </p>
-            <div class="ratings__cards-card-profile">
-              <img
-                src="./images/ratings2.png"
-                alt=""
-                class="ratings__cards-card-profile-img"
-              />
-              <div class="ratings__cards-card-profile-desc">
-                <h4 class="ratings__cards-card-profile-desc-title">
-                  Sarah Genning
-                </h4>
-                <p class="ratings__cards-card-profile-desc-text">
-                  Verified Customer
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="ratings__cards-card">
-            <div class="ratings__cards-card-imgs">
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-            </div>
-            <p class="ratings__cards-card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
-              lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
-            </p>
-            <div class="ratings__cards-card-profile">
-              <img
-                src="./images/ratings3.png"
-                alt=""
-                class="ratings__cards-card-profile-img"
-              />
-              <div class="ratings__cards-card-profile-desc">
-                <h4 class="ratings__cards-card-profile-desc-title">
-                  Lori Basic
-                </h4>
-                <p class="ratings__cards-card-profile-desc-text">
-                  Verified Customer
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="ratings__cards-card">
-            <div class="ratings__cards-card-imgs">
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-              <div class="ratings__cards-card-imgs-pic">
-                <svg
-                  class="ratings__cards-card-imgs-pic-icon"
-                  width="14"
-                  height="13"
-                  viewBox="0 0 14 13"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g clip-path="url(#clip0_1_280)">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
-                      fill="#159BE8"
-                    />
-                  </g>
-                  <defs>
-                    <clipPath id="clip0_1_280">
-                      <rect width="14" height="13" fill="white" />
-                    </clipPath>
-                  </defs>
-                </svg>
-              </div>
-            </div>
-            <p class="ratings__cards-card-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique. Duis cursus,
-              mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam
-              libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum
-              lorem imperdiet. Nunc ut sem vitae risus tristique posuere.
-            </p>
-            <div class="ratings__cards-card-profile">
-              <img
-                src="./images/ratings4.png"
-                alt=""
-                class="ratings__cards-card-profile-img"
-              />
-              <div class="ratings__cards-card-profile-desc">
-                <h4 class="ratings__cards-card-profile-desc-title">
-                  James Razz
-                </h4>
-                <p class="ratings__cards-card-profile-desc-text">
-                  Verified Customer
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="pricing">
-      <div class="container pricing__wrap">
-        <div class="pricing__desc">
-          <p class="pricing__desc-tag">Our pricing</p>
-          <h2 class="pricing__desc-title">
-            Choose the plan that's right for your financial needs
-          </h2>
-          <p class="pricing__desc-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
-            imperdiet. Nunc ut sem vitae risus tristique posuere.
-          </p>
-        </div>
-        <div class="pricing__bill">
-          <div class="pricing__bill-content">
-            <p class="pricing__bill-content-text">Billed monthly</p>
-            <a href="#" class="pricing__bill-content-toggle">
-              <div class="pricing__bill-content-toggle-switcher"></div>
+          </div>
+          <div class="pricing__cards">
+            <a href="#" class="pricing__cards-card">
+              <h3
+                class="pricing__cards-card-title pricing__cards-card-title_blue"
+              >
+                Essentail
+              </h3>
+              <p class="pricing__cards-card-price">$12/mo</p>
+              <p class="pricing__cards-card-text">
+                Portfolio tracking up to 5 coins, live market data up to 30
+                coins, basic historical data & charts.
+              </p>
+              <p class="pricing__cards-card-trial">Start your free trial</p>
+            </a>
+            <a href="#" class="pricing__cards-card">
+              <h3
+                class="pricing__cards-card-title pricing__cards-card-title_red"
+              >
+                Pro
+              </h3>
+              <p class="pricing__cards-card-price">$56/mo</p>
+              <p class="pricing__cards-card-text">
+                Portfolio tracking up to 10 coins, live market data up to 100
+                coins, historical data & charts with extra features.
+              </p>
+              <p class="pricing__cards-card-trial">Start your free trial</p>
+            </a>
+            <a href="#" class="pricing__cards-card">
+              <h3
+                class="pricing__cards-card-title pricing__cards-card-title_purple"
+              >
+                Premium
+              </h3>
+              <p class="pricing__cards-card-price">$79/mo</p>
+              <p class="pricing__cards-card-text">
+                Unlimited portfolio tracking, unlimited live market data,
+                historical data & charts with advanced features.
+              </p>
+              <p class="pricing__cards-card-trial">Start your free trial</p>
             </a>
           </div>
-          <div class="pricing__bill-desc">
-            <p class="pricing__bill-desc-text">Billed annually</p>
-            <p class="pricing__bill-desc-discount">Save 20%</p>
-          </div>
-        </div>
-        <div class="pricing__cards">
-          <a href="#" class="pricing__cards-card">
-            <h3
-              class="pricing__cards-card-title pricing__cards-card-title_blue"
-            >
-              Essentail
-            </h3>
-            <p class="pricing__cards-card-price">$12/mo</p>
-            <p class="pricing__cards-card-text">
-              Lorem ipsum dolor sit amet suspendisse varius. Duis cursus, mi
-              quis viverra ornare, eros dolor interdum
-            </p>
-            <p class="pricing__cards-card-trial">Start your free trial</p>
-          </a>
-          <a href="#" class="pricing__cards-card">
-            <h3 class="pricing__cards-card-title pricing__cards-card-title_red">
-              Pro
-            </h3>
-            <p class="pricing__cards-card-price">$56/mo</p>
-            <p class="pricing__cards-card-text">
-              Lorem ipsum dolor sit amet suspendisse varius. Duis cursus, mi
-              quis viverra ornare, eros dolor interdum
-            </p>
-            <p class="pricing__cards-card-trial">Start your free trial</p>
-          </a>
-          <a href="#" class="pricing__cards-card">
-            <h3
-              class="pricing__cards-card-title pricing__cards-card-title_purple"
-            >
-              Premium
-            </h3>
-            <p class="pricing__cards-card-price">$79/mo</p>
-            <p class="pricing__cards-card-text">
-              Lorem ipsum dolor sit amet suspendisse variusDuis cursus, mi quis
-              viverra.
-            </p>
-            <p class="pricing__cards-card-trial">Start your free trial</p>
-          </a>
         </div>
       </div>
-    </div>
 
-    <div class="purchase">
-      <div class="container purchase__wrap">
-        <div class="purchase-desc">
-          <h2 class="purchase-desc-title">Buy CrypAppy today</h2>
-          <p class="purchase-desc-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem.
-          </p>
-          <div class="purchase-desc-links">
-            <a href="#" class="purchase-desc-links-link">Buy CrypAppy</a>
-            <a href="#" class="purchase-desc-links-link">View in designer</a>
+      <div id="purchase" class="purchase">
+        <div class="container purchase__wrap">
+          <div class="purchase-desc">
+            <h2 class="purchase-desc-title">Buy CrypAppy today</h2>
+            <p class="purchase-desc-text">
+              Download the ultimate crypto portfolio app today and take control
+              of your crypto future! Join the thousands of users who are already
+              simplifying their crypto journey with our powerful tools and
+              intuitive platform.
+            </p>
+            <div class="purchase-desc-links">
+              <a href="#" class="purchase-desc-links-link">Buy CrypAppy</a>
+              <a href="#" class="purchase-desc-links-link">View in designer</a>
+            </div>
           </div>
+          <div class="purchase__pic purchase__pic_left"></div>
+          <div class="purchase__pic purchase__pic_right"></div>
         </div>
-        <div class="purchase__pic purchase__pic_left"></div>
-        <div class="purchase__pic purchase__pic_right"></div>
       </div>
-    </div>
+    </main>
 
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="container footer__wrap">
         <div class="footer__desc">
           <a href="#" class="footer__desc-logo">

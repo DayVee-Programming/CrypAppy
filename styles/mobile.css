@@ -69,6 +69,11 @@
   margin-bottom: 12px;
 }
 
+.mobile__main-cards-card-pic-img {
+  max-width: 30px;
+  max-height: 34px;
+}
+
 .mobile__main-cards-card-title {
   color: #fff;
   font-size: 20px;
@@ -131,10 +136,6 @@
 @media screen and (max-width: 1430px) {
   .mobile__side {
     display: none;
-  }
-
-  .banner__main {
-    max-width: unset;
   }
 
   .mobile__wrap {

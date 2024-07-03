@@ -71,6 +71,8 @@
 
 .landing__features-content-card-img {
   margin-bottom: 12px;
+  max-width: 20px;
+  max-height: 20px;
 }
 
 .landing__features-content-card-title {

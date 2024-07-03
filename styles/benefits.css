@@ -16,6 +16,7 @@
   flex-direction: column;
   gap: 16px;
   text-align: center;
+  z-index: 1;
 }
 
 .benefits__desc-title {
