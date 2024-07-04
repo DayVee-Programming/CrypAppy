@@ -48,8 +48,10 @@
   position: absolute;
   top: 0;
   right: 0;
-  max-width: 688px;
-  max-height: 982px;
+  width: unset;
+  height: unset;
+  max-width: 825px;
+  max-height: 993px;
 }
 
 @media screen and (max-width: 1200px) {
