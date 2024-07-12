@@ -39,8 +39,7 @@
 }
 
 .footer__email {
-  max-width: 400px;
-  width: 100%;
+  width: min(100%, 400px);
   display: flex;
   flex-direction: column;
   align-items: center;

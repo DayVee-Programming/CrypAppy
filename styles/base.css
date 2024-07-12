@@ -32,18 +32,26 @@ img {
   height: 100%;
 }
 
-.page-container {
-  max-width: 1470px;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
+a {
+  cursor: pointer;
 }
 
-.container {
-  max-width: 1298px;
-  width: 100%;
+address {
+  font-style: normal;
+}
+
+/* original container for a full webpage */
+.full-container {
+  width: min(100%) 1470px;
   height: 100%;
-  margin: 0 auto;
-  padding: 0 15px;
+  margin-inline: auto;
+  padding-inline: 15px;
+}
+
+/* container for a webpage with margin of 86px from left and right compared to original container */
+.container {
+  width: min(100%, 1298px);
+  height: 100%;
+  margin-inline: auto;
+  padding-inline: 15px;
 }

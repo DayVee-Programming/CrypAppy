@@ -10,8 +10,7 @@
 }
 
 .benefits__desc {
-  max-width: 699px;
-  width: 100%;
+  width: min(100%, 699px);
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -40,8 +39,7 @@
 }
 
 .benefits__cards-card {
-  max-width: 269px;
-  width: 100%;
+  width: min(100%, 269px);
   display: flex;
   flex-direction: column;
   align-items: center;

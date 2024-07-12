@@ -10,8 +10,7 @@
 }
 
 .ratings__desc {
-  max-width: 623px;
-  width: 100%;
+  width: min(100%, 623px);
   display: flex;
   flex-direction: column;
   gap: 28px;
@@ -54,8 +53,7 @@
 }
 
 .ratings__cards-card {
-  max-width: 288px;
-  width: 100%;
+  width: min(100%, 288px);
   display: flex;
   flex-direction: column;
 }

@@ -13,8 +13,7 @@
 }
 
 .landing__desc {
-  max-width: 699px;
-  width: 100%;
+  width: min(100%, 699px);
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -55,8 +54,7 @@
 }
 
 .landing__features-content-card {
-  max-width: 339px;
-  width: 100%;
+  width: min(100%, 339px);
   display: flex;
   flex-direction: column;
 }
@@ -97,6 +95,10 @@
 
 .landing__features-img-pic {
   display: flex;
+}
+
+.landing__features-img {
+  width: 345px;
 }
 
 .landing__pic {
