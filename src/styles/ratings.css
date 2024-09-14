@@ -41,7 +41,7 @@
   justify-content: center;
 }
 
-.ratings__sponsors-link {
+.ratings__sponsors-item-link {
   display: flex;
 }
 
@@ -52,62 +52,65 @@
   justify-content: center;
 }
 
-.ratings__cards-card {
+.ratings__cards-item {
   width: min(100%, 288px);
+}
+
+.ratings__cards-item-link {
   display: flex;
   flex-direction: column;
 }
 
-.ratings__cards-card-imgs {
+.ratings__cards-item-link-stars {
   display: flex;
   gap: 4px;
   align-items: center;
   margin-bottom: 26px;
 }
 
-.ratings__cards-card-imgs-pic {
+.ratings__cards-item-link-stars-item {
   padding: 6px 5px;
   border-radius: 3px;
   background: #212250;
 }
 
-.ratings__cards-card-text {
+.ratings__cards-item-link-text {
   color: #fff;
   font-size: 17px;
   line-height: 30px;
   margin-bottom: 22px;
 }
 
-.ratings__cards-card-profile {
+.ratings__cards-item-link-profile {
   display: flex;
   gap: 10px;
   align-items: center;
 }
 
-.ratings__cards-card-profile-img {
+.ratings__cards-item-link-profile-img {
   max-width: 50px;
   max-height: 50px;
 }
 
-.ratings__cards-card-profile-desc {
+.ratings__cards-item-link-profile-desc {
   padding-top: 12px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.ratings__cards-card-profile-desc-title {
+.ratings__cards-item-link-profile-desc-title {
   color: #fff;
   font-size: 18px;
   line-height: 20px;
   transition: 0.3s;
 }
 
-.ratings__cards-card:hover .ratings__cards-card-profile-desc-title {
+.ratings__cards-item-link:hover .ratings__cards-item-link-profile-desc-title {
   color: #159be8;
 }
 
-.ratings__cards-card-profile-desc-text {
+.ratings__cards-item-link-profile-desc-text {
   color: #fff;
   font-size: 14px;
   line-height: 16px; 

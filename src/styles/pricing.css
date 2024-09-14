@@ -102,9 +102,12 @@
   justify-content: center;
 }
 
-.pricing__cards-card {
+.pricing__cards-item {
   width: min(100%, 389px);
   height: 439px;
+}
+
+.pricing__cards-item-link {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,19 +119,19 @@
   padding: 10px;
 }
 
-.pricing__cards-card:first-child {
-  border-top: 4px solid #159BE8;
+.pricing__cards-item-link:first-child {
+  border-top: 4px solid #159be8;
 }
 
-.pricing__cards-card:nth-child(2) {
-  border-top: 4px solid #F95B74;
+.pricing__cards-item-link:nth-child(2) {
+  border-top: 4px solid #f95b74;
 }
 
-.pricing__cards-card:last-child {
-  border-top: 4px solid #7C44E2;
+.pricing__cards-item-link:last-child {
+  border-top: 4px solid #7c44e2;
 }
 
-.pricing__cards-card-title {
+.pricing__cards-item-link-title {
   color: #fff;
   font-size: 30px;
   line-height: 42px;
@@ -136,32 +139,32 @@
   transition: 0.3s;
 }
 
-.pricing__cards-card:hover .pricing__cards-card-title_blue {
-  color: #159BE8;
+.pricing__cards-item-link:hover .pricing__cards-item-link-title_blue {
+  color: #159be8;
 }
 
-.pricing__cards-card:hover .pricing__cards-card-title_red {
-  color: #F95B74;
+.pricing__cards-item-link:hover .pricing__cards-item-link-title_red {
+  color: #f95b74;
 }
 
-.pricing__cards-card:hover .pricing__cards-card-title_purple {
-  color: #7C44E2;
+.pricing__cards-item-link:hover .pricing__cards-item-link-title_purple {
+  color: #7c44e2;
 }
 
-.pricing__cards-card-price {
+.pricing__cards-item-link-price {
   color: #fff;
   font-size: 40px;
   line-height: 56px;
   margin-bottom: 32px;
 }
 
-.pricing__cards-card-text {
+.pricing__cards-item-link-text {
   color: #fff;
   line-height: 22px;
   margin-bottom: 31px;
 }
 
-.pricing__cards-card-trial {
+.pricing__cards-item-link-trial {
   color: #fff;
   padding: 16px 32px;
   border-radius: 100px;
@@ -169,8 +172,7 @@
   transition: 0.3s;
 }
 
-.pricing__cards-card:hover .pricing__cards-card-trial {
+.pricing__cards-item-link:hover .pricing__cards-item-link-trial {
   background: #fff;
-  color: #159BE8;
+  color: #159be8;
 }
-

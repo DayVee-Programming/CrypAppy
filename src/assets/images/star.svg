@@ -1,0 +1,22 @@
+<svg
+  class="ratings__cards-item-link-imgs-pic-icon"
+  width="14"
+  height="13"
+  viewBox="0 0 14 13"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g clip-path="url(#clip0_1_280)">
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M7 10.7763L2.67978 12.9964L3.50487 8.29423L0.00973511 4.96417L4.83989 4.27814L7 0L9.16011 4.27814L13.9903 4.96417L10.4951 8.29423L11.3202 12.9964L7 10.7763Z"
+      fill="#159BE8"
+    />
+  </g>
+  <defs>
+    <clipPath id="clip0_1_280">
+      <rect width="14" height="13" fill="white" />
+    </clipPath>
+  </defs>
+</svg>

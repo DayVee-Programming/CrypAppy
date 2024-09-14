@@ -45,46 +45,47 @@
   gap: 92px;
 }
 
-.landing__features-content_left {
+.landing__features-content.left {
   text-align: right;
 }
 
-.landing__features-content_right {
+.landing__features-content.right {
   text-align: left;
 }
 
-.landing__features-content-card {
+.landing__features-content-item-link {
   width: min(100%, 339px);
   display: flex;
   flex-direction: column;
 }
 
-.landing__features-content-card_left {
+.landing__features-content-item-link.left {
   align-items: flex-end;
 }
 
-.landing__features-content-card_right {
+.landing__features-content-item-link.right {
   align-items: flex-start;
 }
 
-.landing__features-content-card-img {
+.landing__features-content-item-link-img {
   margin-bottom: 12px;
   max-width: 20px;
   max-height: 20px;
 }
 
-.landing__features-content-card-title {
+.landing__features-content-item-link-title {
   color: #fff;
   font-size: 20px;
   margin-bottom: 10px;
   transition: 0.3s;
 }
 
-.landing__features-content-card:hover .landing__features-content-card-title {
+.landing__features-content-item-link:hover
+  .landing__features-content-item-link-title {
   color: #159be8;
 }
 
-.landing__features-content-card-text {
+.landing__features-content-item-link-text {
   color: #fff;
   line-height: 24px;
   display: -webkit-box;
@@ -93,25 +94,25 @@
   overflow: hidden;
 }
 
-.landing__features-img-pic {
+.landing__features-pic {
   display: flex;
 }
 
-.landing__features-img {
+.landing__features-pic-img {
   width: 345px;
 }
 
 .landing__pic {
   width: 800px;
   height: 800px;
-  border: 180px solid rgba(33, 34, 80, 0.40);
+  border: 180px solid rgba(33, 34, 80, 0.4);
   position: absolute;
   top: -400px;
   left: -400px;
 }
 
 @media screen and (max-width: 992px) {
-  .landing__features-img {
+  .landing__features-pic-img {
     display: none;
   }
 
@@ -129,19 +130,19 @@
     gap: 15px;
   }
 
-  .landing__features-content_right {
+  .landing__features-content.right {
     text-align: center;
   }
 
-  .landing__features-content-card_right {
+  .landing__features-content-item-link.right {
     align-items: center;
   }
 
-  .landing__features-content_left {
+  .landing__features-content.left {
     text-align: center;
   }
 
-  .landing__features-content-card_left {
+  .landing__features-content-item-link.left {
     align-items: center;
   }
 }

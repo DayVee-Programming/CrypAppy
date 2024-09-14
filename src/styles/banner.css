@@ -32,14 +32,14 @@
   margin-bottom: 14px;
 }
 
-.banner__main-links {
+.banner__main-apps {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.banner__main-links-link {
+.banner__main-apps-item-link {
   display: flex;
 }
 

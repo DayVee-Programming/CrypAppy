@@ -1,0 +1,12 @@
+<svg
+  class="benefits__cards-item-link-more-icon"
+  width="22"
+  height="16"
+  viewBox="0 0 22 16"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path d="M1 7H21V10H1V7Z" fill="white" />
+  <path d="M13 0H22V10H13V0Z" fill="white" />
+  <path d="M13 6H22V16H13V6Z" fill="white" />
+</svg>
