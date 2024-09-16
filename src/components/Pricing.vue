@@ -1,6 +1,6 @@
 <template>
   <div id="pricing" class="pricing">
-    <div class="container pricing__wrap">
+    <div class="container pricing__wrap" data-aos="fade-up">
       <div class="pricing__desc">
         <p class="pricing__desc-tag">Our pricing</p>
         <h2 class="pricing__desc-title">

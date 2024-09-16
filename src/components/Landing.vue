@@ -11,7 +11,7 @@
         </p>
       </div>
       <div class="landing__features">
-        <ul class="landing__features-content left">
+        <ul class="landing__features-content left" data-aos="flip-up">
           <LandingContentItem
             v-for="link in landingStore.contentLeftLinks"
             :key="link.id"
@@ -19,14 +19,14 @@
             type="left"
           />
         </ul>
-        <a class="landing__features-pic">
+        <a class="landing__features-pic" data-aos="zoom-in">
           <img
             src="../assets/images/landing.png"
             alt=""
             class="landing__features-pic-img"
           />
         </a>
-        <ul class="landing__features-content right">
+        <ul class="landing__features-content right" data-aos="flip-down">
           <LandingContentItem
             v-for="link in landingStore.contentRightLinks"
             :key="link.id"

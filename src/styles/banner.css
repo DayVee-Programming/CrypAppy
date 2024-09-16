@@ -66,12 +66,16 @@
 
 @media screen and (max-width: 992px) {
   .banner__main {
-    padding: 240px 0 164px;
+    padding: 150px 0 164px;
     max-width: unset;
   }
 
   .banner__img {
     display: none;
+  }
+
+  .banner__wrap {
+    justify-content: center;
   }
 }
 
@@ -83,10 +87,8 @@
   .banner__main-title {
     line-height: 50px;
   }
-}
 
-@media screen and (max-width: 661px) {
   .banner__main {
-    padding: 280px 0 164px;
+    padding: 120px 0;
   }
 }

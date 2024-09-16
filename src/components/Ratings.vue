@@ -1,6 +1,6 @@
 <template>
   <div id="ratings" class="ratings">
-    <div class="container ratings__wrap">
+    <div class="container ratings__wrap" data-aos="fade-up">
       <div class="ratings__desc">
         <p class="ratings__desc-text">the best crypto App</p>
         <h3 class="ratings__desc-title">

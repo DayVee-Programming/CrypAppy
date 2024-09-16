@@ -1,7 +1,7 @@
 <template>
   <div id="mobile" class="mobile">
     <div class="full-container mobile__wrap">
-      <div class="mobile__main">
+      <div class="mobile__main" data-aos="fade-right">
         <div class="mobile__main-desc">
           <p class="mobile__main-desc-tag">mobile friendly</p>
           <h3 class="mobile__main-desc-title">

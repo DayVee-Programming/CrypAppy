@@ -1,6 +1,6 @@
 <template>
   <div id="benefits" class="benefits">
-    <div class="container benefits__wrap">
+    <div class="container benefits__wrap" data-aos="fade-up">
       <div class="benefits__desc">
         <h2 class="benefits__desc-title">New crypto finance app</h2>
         <p class="benefits__desc-text">

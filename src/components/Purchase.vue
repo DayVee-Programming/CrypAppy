@@ -1,5 +1,5 @@
 <template>
-  <div id="purchase" class="purchase">
+  <div id="purchase" class="purchase" data-aos="fade-up">
     <div class="container purchase__wrap">
       <div class="purchase-desc">
         <h2 class="purchase-desc-title">Buy CrypAppy today</h2>

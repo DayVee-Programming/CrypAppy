@@ -1,19 +1,20 @@
 # CRYPAPPY website
 
-The crypto portfolio app.
+Your all-in-one crypto companion. Buy, sell, trade, and manage your cryptocurrencies with ease.
 
 ## Screenshots from the project
 
-<img src="./src/assets/images/screenshot1.jpg" />
+<img src="./src/assets/images/screenshot1.png" />
 <hr>
-<img src="./src/assets/images/screenshot2.jpg" />
+<img src="./src/assets/images/screenshot2.png" />
 <hr>
-<img src="./src/assets/images/screenshot3.jpg" />
+<img src="./src/assets/images/screenshot3.png" />
 
 ## How to run the project
 
 1. Clone this project by using `https://github.com/DayVee-Programming/CrypAppy.git` on your command line or you can download it by pressing on "Code" button --> "Download ZIP"
-2. Open the cloned project folder and open index.html file with your browser
+2. Open the cloned project folder with your editor and type npm run dev on your command line
+3. Open it on your local server
 
 ## Find a bug?
 

@@ -1,6 +1,6 @@
 .ratings {
   background: #010225;
-  padding: 180px 0 160px;
+  padding-top: 180px;
 }
 
 .ratings__wrap {
@@ -47,7 +47,7 @@
 
 .ratings__cards {
   display: flex;
-  gap: 36px;
+  gap: 70px 36px;
   flex-wrap: wrap;
   justify-content: center;
 }

@@ -4,6 +4,7 @@ import { v4 } from "uuid";
 export const useHeader = defineStore({
   id: "header",
   state: () => ({
+    isDropdownOpen: false,
     menuLinks: [
       {
         id: v4(),

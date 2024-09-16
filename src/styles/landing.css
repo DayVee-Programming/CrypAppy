@@ -8,8 +8,8 @@
   gap: 44px;
   align-items: center;
   position: relative;
-  overflow: hidden;
   padding-top: 188px;
+  overflow: hidden;
 }
 
 .landing__desc {
@@ -53,8 +53,11 @@
   text-align: left;
 }
 
-.landing__features-content-item-link {
+.landing__features-content-item {
   width: min(100%, 339px);
+}
+
+.landing__features-content-item-link {
   display: flex;
   flex-direction: column;
 }
@@ -78,6 +81,7 @@
   font-size: 20px;
   margin-bottom: 10px;
   transition: 0.3s;
+  line-height: 120%;
 }
 
 .landing__features-content-item-link:hover
@@ -127,7 +131,7 @@
 
 @media screen and (max-width: 768px) {
   .landing__features {
-    gap: 15px;
+    gap: 40px 15px;
   }
 
   .landing__features-content.right {
@@ -143,6 +147,16 @@
   }
 
   .landing__features-content-item-link.left {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .landing__features {
+    flex-direction: column;
+  }
+
+  .landing__features-content {
     align-items: center;
   }
 }

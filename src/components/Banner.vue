@@ -1,6 +1,6 @@
 <template>
   <div id="banner" class="banner">
-    <div class="full-container banner__wrap">
+    <div class="full-container banner__wrap" data-aos="fade-left">
       <div class="banner__main">
         <h1 class="banner__main-title">
           The crypto portfolio app that makes you smile. Every day.

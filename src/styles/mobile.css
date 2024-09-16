@@ -6,6 +6,7 @@
 .mobile__wrap {
   padding-left: 86px;
   display: flex;
+  gap: 120px 15px;
   justify-content: space-between;
 }
 
@@ -129,16 +130,37 @@
 }
 
 .mobile__side {
+  max-width: 720px;
   display: flex;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 1430px) {
-  .mobile__side {
-    display: none;
+  .mobile__wrap {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .mobile__main {
+    align-items: center;
+    text-align: center;
   }
 
-  .mobile__wrap {
-    justify-content: center;
-    padding-left: 15px;
+  .mobile__main-desc-title {
+    width: 100%;
+  }
+
+  .mobile__main-cards-item-link {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .mobile__side {
+    flex-direction: column;
+    gap: 40px 15px;
   }
 }

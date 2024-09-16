@@ -2,29 +2,30 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "LeagueSpartan", sans-serif;
+  font-weight: 400;
+}
+
+ul {
   list-style: none;
+}
+
+a {
   text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 body {
-  font-family: "LeagueSpartan", sans-serif;
-  font-weight: 400;
   background: #0c0d2e;
+}
+
+address {
+  font-style: normal;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-input {
-  font-family: inherit;
-  font-weight: inherit;
 }
 
 img {
@@ -32,26 +33,20 @@ img {
   height: 100%;
 }
 
-a {
-  cursor: pointer;
-}
-
 address {
   font-style: normal;
 }
 
-/* original container for a full webpage */
+/* Original container for a full webpage */
 .full-container {
-  width: min(100%) 1470px;
-  height: 100%;
-  margin-inline: auto;
-  padding-inline: 15px;
+  max-width: 1470px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
-/* container for a webpage with margin of 86px from left and right compared to original container */
+/* Container for a webpage with margin of 86px from left and right compared to original container */
 .container {
-  width: min(100%, 1298px);
-  height: 100%;
-  margin-inline: auto;
-  padding-inline: 15px;
+  max-width: 1298px;
+  margin: 0 auto;
+  padding: 0 15px;
 }

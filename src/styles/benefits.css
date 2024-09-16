@@ -38,8 +38,11 @@
   justify-content: center;
 }
 
-.benefits__cards-item-link {
+.benefits__cards-item {
   width: min(100%, 269px);
+}
+
+.benefits__cards-item-link {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,4 +99,10 @@
 
 .benefits__cards-item-link:hover .benefits__cards-item-link-more-icon path {
   fill: #159be8;
+}
+
+@media screen and (max-width: 992px) {
+  .benefits {
+    padding: 120px 0 160px;
+  }
 }
