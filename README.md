@@ -13,7 +13,7 @@ Your all-in-one crypto companion. Buy, sell, trade, and manage your cryptocurren
 ## How to run the project
 
 1. Clone this project by using `https://github.com/DayVee-Programming/CrypAppy.git` on your command line or you can download it by pressing on "Code" button --> "Download ZIP"
-2. Open the cloned project folder with your editor and type npm run dev on your command line
+2. Open the cloned project folder with your editor and type `npm run dev` on your command line
 3. Open it on your local server
 
 ## Find a bug?
